@@ -63,6 +63,10 @@ a:visited { color: #a0a; }
   line-height: 1.5em;
 }
 
+.header {
+  position: relative;
+}
+
 .header a {
   font-weight: bold;
   text-decoration: none;
@@ -88,6 +92,14 @@ a:visited { color: #a0a; }
 
 .header a.extra:hover {
   color: #000;
+}
+
+.header .logo {
+  color: #ddd;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 6em;
 }
 
 .meta {
