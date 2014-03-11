@@ -111,6 +111,30 @@ a:visited { color: #a0a; }
   color: #8085C1;
 }
 
+.footer .members {
+  text-align: left;
+}
+
+.footer .members li {
+  display: inline-block;
+}
+
+.footer .members li:after {
+  content: " \2022 ";
+  display: inline-block;
+  padding: 0 0.5em;
+  color: #ccc;
+}
+
+.footer .members li:last-child:after {
+  display: none;
+}
+
+.footer .members a {
+  color: #8085C1;
+  text-decoration: none;
+}
+
 .footer .rss {
   margin-top: 1.1em;
   margin-right: -.2em;
