@@ -29,6 +29,14 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
+
+/* Custom formatting */
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #ccc;
+    padding: 0 10px;
+}
+
 /*****************************************************************************/
 /*
 /* Home
